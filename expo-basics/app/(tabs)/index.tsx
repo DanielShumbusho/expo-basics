@@ -1,4 +1,5 @@
 import { View, Text } from 'react-native';
+import Navbar from '../../components/Navbar';
 
 export default function HomeScreen() {
   return (
@@ -11,6 +12,7 @@ export default function HomeScreen() {
       }}
     >
       <Text>Hello Expo 👋</Text>
+      <Navbar/>
     </View>
   );
 }
