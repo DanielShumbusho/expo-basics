@@ -16,7 +16,7 @@ export function Collapsible({ children, title }: PropsWithChildren & { title: st
       <TouchableOpacity
         style={styles.heading}
         onPress={() => setIsOpen((value) => !value)}
-        activeOpacity={0.8}>
+        activeOpacity={0.2}>
         <IconSymbol
           name="chevron.right"
           size={18}
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   content: {
-    marginTop: 6,
+    marginTop:6,
     marginLeft: 24,
   },
 });
